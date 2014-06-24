@@ -17,6 +17,7 @@ function DataConverter(nodeId) {
   this.node                   = $("#"+nodeId);
 
   this.outputDataTypes        = [
+                                {"text":"Ohana-ish",              "id":"ohana",            "notes":""},
                                 {"text":"Actionscript",           "id":"as",               "notes":""},
                                 {"text":"ASP/VBScript",           "id":"asp",              "notes":""},
                                 {"text":"HTML",                   "id":"html",             "notes":""},
@@ -30,7 +31,7 @@ function DataConverter(nodeId) {
                                 {"text":"XML - Properties",       "id":"xmlProperties",    "notes":""},
                                 {"text":"XML - Nodes",            "id":"xml",              "notes":""},
                                 {"text":"XML - Illustrator",      "id":"xmlIllustrator",   "notes":""}];
-  this.outputDataType         = "json";
+  this.outputDataType         = "ohana";
 
   this.columnDelimiter        = "\t";
   this.rowDelimiter           = "\n";
